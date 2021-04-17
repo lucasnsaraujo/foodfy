@@ -1,0 +1,121 @@
+* {font-family: 'Roboto', Arial, sans-serif;}
+
+body {
+    margin: 0px;
+}
+/* ========= HEADER =========== */
+
+header {
+    max-width: 940px;
+    margin: 0 auto;
+    height: 80px;
+    display: block;
+    line-height: 80px;
+    padding: 0px 20px;
+}
+
+header img {
+    width: 90px;
+    vertical-align: middle;
+}
+
+.top-menu {
+    display: inline-block;
+    margin-left: 122.4px;
+}
+.top-menu > a:first-of-type {
+    margin-right: 30px;
+}
+.top-menu a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #111111;
+}
+.top-menu a:hover {color: #FBDFDB;}
+
+
+/* ========= BANNER =========== */
+
+.banner {
+    position: relative;
+    max-width: 940px;
+    height: 366px;
+    margin: 0 auto;
+    background-color: #FBDFDB ;
+    border-radius: 30px;
+}
+
+.banner img {
+    width: 216px;
+    position: absolute;
+    right: 100px;
+    top: 66px;
+}
+
+.banner h1 {
+    font-size: 32px;
+    position: absolute;
+    top: 117px;
+    left: 60px;
+}
+.banner p {
+    font-weight: 400 ;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 18px;
+    bottom: 80px;
+    left: 60px;
+    width: 316px;
+    line-height: 28px;
+}
+
+
+/* ========= CARDS =========== */
+
+.wrapper {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 940px;
+}
+.cards {
+    margin: 0 auto;
+    max-width: 940px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.card {
+    max-width: 557px;
+}
+.card-image-container img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card-title h2 {
+    font-size: 18px;
+    color: #111111;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.card-info p {
+    font-size: 14px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+/* ========= FOOTER =========== */
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #EEEEEE;
+    margin: 0px;
+    height: 62px;
+}
+
+footer p {
+    line-height: 62px;
+    font-size: 14px;
+    color: #999999;
+}
