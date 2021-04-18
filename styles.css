@@ -90,6 +90,13 @@ header img {
     max-width: 557px;
     cursor: pointer;
 }
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: 10px solid rgba(0, 0, 0, 0.1);
+    box-shadow: #111111;
+    -moz-outline-radius: 10px;
+}
+
 .card-image-container img{
     width: 100%;
     border-radius: 15px;
@@ -155,6 +162,7 @@ footer p {
         margin: 0;
         left: 0;
     }
+}
 
 /* =========     PAGINA SOBRE     ============ */
 
@@ -223,5 +231,4 @@ footer p {
 .modal.active{
     display: block;
     opacity: 100%;
-    
 }
